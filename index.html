@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2: Control Flow, Loops, and Scope</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="crt.css" />
+
+    <script defer src="script.js"></script>
+</head>
+
+<!-- <body class="crt"> -->
+
+<body>
+    <div class="bodyContent">
+        <header style="text-align: center">
+            <h1>**** CPAN113 WEB - LAB 3 ****</h1>
+            <p aria-label="System RAM info">
+                Introduction to Arrays
+            </p>
+
+        </header>
+
+        <main>
+            <div>
+                <h2>1: Declaring Arrays</h2>
+                <p>Before you can use arrays, you need to know how to declare them.</p>
+
+                <button id='task_1_butt' type="button">
+                    Do Task 1
+                </button>
+
+                <pre id="task_1_output">Task 1 Results</pre>
+            </div>
+
+
+            <div>
+                <h2>Step 2: Accessing Arrays</h2>
+                <p>Once an array is declared, you need to know how to access specific elements from it.</p>
+
+                <button id='task_2_butt' type="button">
+                    Do Task 2
+                </button>
+
+                <pre id="task_2_output">Task 2 Results</pre>
+            </div>
+
+
+            <div>
+                <h2>Step 3: Using Array Properties</h2>
+                <p>Arrays come with built-in properties that give you information about them.</p>
+
+                <button id='task_3_butt' type="button">
+                    Do Task 3
+                </button>
+
+                <pre id="task_3_output">Task 3 Results</pre>
+            </div>
+
+
+            <div>
+                <h2>Step 4: Array Methods</h2>
+                <p>JavaScript provides several methods that allow you to manipulate arrays.</p>
+
+                <button id='task_4_butt' type="button">
+                    Do Task 4
+                </button>
+
+                <pre id="task_4_output">Task 4 Results</pre>
+            </div>
+
+
+
+            <div>
+                <h2>Step 5: Iterating Through Arrays</h2>
+                <p>Often, you will need to loop through all elements in an array to perform actions on them.</p>
+
+                <button id='task_5_butt' type="button">
+                    Do Task 5
+                </button>
+
+                <pre id="task_5_output">Task 5 Results</pre>
+            </div>
+
+
+            <div>
+                <h2>Step 6: Array Destructuring</h2>
+                <p>Array destructuring allows you to extract elements from an array into separate variables quickly.</p>
+
+                <button id='task_6_butt' type="button">
+                    Do Task 6
+                </button>
+
+                <pre id="task_6_output">Task 6 Results</pre>
+            </div>
+
+
+            <div>
+                <h2>Step 7: Final Review and Submission</h2>
+                <p>Successful code is well reviewed code, so just do it!</p>
+
+                <pre id="task_7_output">Task 6 Results:
+You're looking at it!
+                </pre>
+            </div>
+    </div>
+
+    <script>
+        // REG THE BUTTONS TO CALL TASK FUNCS
+        // [1, 2, 3, 4, 5, 6].forEach((task_id) => {
+        //     document.getElementById("task_" + 1 + "_butt").addEventListener("click", () => { do_task(task_id, document.getElementById("task_" + task_id + "_output")) });
+        // })
+
+        // MANUALLY
+        document.getElementById("task_1_butt").addEventListener("click", () => { do_task(1, document.getElementById("task_1_output")) });
+        document.getElementById("task_2_butt").addEventListener("click", () => { do_task(2, document.getElementById("task_2_output")) });
+        document.getElementById("task_3_butt").addEventListener("click", () => { do_task(3, document.getElementById("task_3_output")) });
+        document.getElementById("task_4_butt").addEventListener("click", () => { do_task(4, document.getElementById("task_4_output")) });
+        document.getElementById("task_5_butt").addEventListener("click", () => { do_task(5, document.getElementById("task_5_output")) });
+        document.getElementById("task_6_butt").addEventListener("click", () => { do_task(6, document.getElementById("task_6_output")) });
+
+    </script>
+</body>
+
+</html>
